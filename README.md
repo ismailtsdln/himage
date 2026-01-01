@@ -14,13 +14,20 @@
 
 ## Installation
 
+### Go Install
+
+You can install `himage` directly using the `go install` command:
+
+```bash
+go install -v github.com/ismailtsdln/himage/cmd/himage@latest
+```
+
 ### From Source
 
 ```bash
 git clone https://github.com/ismailtsdln/himage.git
 cd himage
-go get ./...
-go build -o himage cmd/himage/*.go
+go build -o himage ./cmd/himage
 ```
 
 ## Usage
