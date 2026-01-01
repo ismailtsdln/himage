@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/ismailtsdln/himage/pkg/himage"
 	"github.com/pterm/pterm"
 	"github.com/spf13/cobra"
-	"github.com/streetbyters/himage/pkg/himage"
 )
 
 var (

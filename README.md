@@ -17,7 +17,7 @@
 ### From Source
 
 ```bash
-git clone https://github.com/streetbyters/himage.git
+git clone https://github.com/ismailtsdln/himage.git
 cd himage
 go get ./...
 go build -o himage cmd/himage/*.go
